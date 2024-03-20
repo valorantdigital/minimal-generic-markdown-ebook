@@ -1,0 +1,74 @@
+site_name: 'minimal markdown ebook'
+
+docs_dir: 'ebook'
+
+site_dir: 'web'
+
+theme:
+
+    name: readthedocs
+
+    highlightjs: true
+
+    hljs_languages:
+
+        - yaml
+
+        - rust
+    
+plugins:
+
+    - with-pdf:
+    
+        output_path: ebook-minimal-markdown.pdf
+        
+        author:
+        
+            "Software Shinobi"
+            
+        copyright: ""
+
+        cover: true
+        
+        back_cover: false
+        
+        #cover_title: TITLE TEXT
+        
+        cover_subtitle: "cover_subtitle."
+        
+        #custom_template_path: TEMPLATES PATH
+        #
+        
+        cover_logo: image-content/cover.png
+        
+        ##toc_title: TOC TITLE TEXT
+        #heading_shift: false
+        
+        toc_level:
+        
+            2
+            
+        ordered_chapter_level: 0
+        
+        #excludes_children:
+        #    - 'release-notes/:upgrading'
+        #    - 'release-notes/:changelog'
+        #
+        #exclude_pages:
+        #    - 'bugs/'
+        #    - 'appendix/contribute/'
+        #convert_iframe:
+        #    - src: IFRAME SRC
+        #      img: POSTER IMAGE URL
+        #      text: ALTERNATE TEXT
+        #    - src: ...
+        #two_columns_level: 3
+
+        #render_js: true
+        #headless_chrome_path: headless-chromium
+
+        #enabled_if_env: ENABLE_PDF_EXPORT
+
+        #debug_html: true
+        #show_anchors: true
+        #verbose: true

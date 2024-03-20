@@ -1,4 +1,5 @@
-site_name: A Practioner's Guide To Visualization Based Sex Magick
+
+site_name: 'this is the site name'
 
 docs_dir: 'ebook'
 
@@ -11,58 +12,5 @@ theme:
     hljs_languages:
 
         - yaml
+
         - rust
-
-plugins:
-
-    - with-pdf:
-    
-        author:
-            "Software Shinobi"
-            
-        copyright:
-            "We don't need nothing but today."
-            
-        #
-        cover: true
-        back_cover: false
-        
-        cover_title: TITLE TEXT
-        cover_subtitle: SUBTITLE TEXT
-        
-        #custom_template_path: TEMPLATES PATH
-        #
-        
-        cover_logo: cover-image.png
-        
-        toc_title: TOC TITLE TEXT
-        #heading_shift: false
-        toc_level:
-            2
-        #ordered_chapter_level: 2
-        #excludes_children:
-        #    - 'release-notes/:upgrading'
-        #    - 'release-notes/:changelog'
-        #
-        #exclude_pages:
-        #    - 'bugs/'
-        #    - 'appendix/contribute/'
-        #convert_iframe:
-        #    - src: IFRAME SRC
-        #      img: POSTER IMAGE URL
-        #      text: ALTERNATE TEXT
-        #    - src: ...
-        #two_columns_level: 3
-        #
-        #render_js: true
-        #headless_chrome_path: headless-chromium
-        #
-        
-        output_path: generic-ebook-situation.pdf
-
-        #enabled_if_env: ENABLE_PDF_EXPORT
-
-        #
-        #debug_html: true
-        #show_anchors: true
-        #verbose: true
